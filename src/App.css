@@ -1,9 +1,39 @@
 .app {
   background-color: #fff;
 }
-
+.sub-title {
+  padding: 15;
+  color: #666;
+  font-size: 1em;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+}
 .logo {
   height: 40px;
+}
+.logo-content {
+  display: flex;
+  align-items: center;
+}
+.logo-content {
+  text-decoration: none;
+}
+.content.page {
+  margin-top: 0;
+}
+.text-link {  
+  margin: 40px auto;
+  padding: 15;
+  color: #666;
+  font-size: 1em;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+  background: none;
+  border: none;
+  text-decoration: underline;
+} 
+strong.line {
+  text-decoration: underline;
 }
 .content {
   display: flex;
@@ -35,19 +65,72 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  min-width: 160px;
-  padding: 0 40px;
+  width: 270px;
   height: 60px;
-  margin: 40px;
+  margin: 20px auto;
   color: #fff;
+  font-size: 1em;
+  font-family: 'Roboto';
+  font-weight: 500;
   text-decoration: none;
   border-radius: 8px;
   background-color: #48adc9;
 }
 
-.button {
-  background-color: rgb(27, 151, 83);
+.title {
+  padding: 15;
+  color: #282828;
+  font-size: 1.2em;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
 }
+
+.text {
+  width: 80%;
+  margin: 15px auto;
+  font-size: .95em;
+  font-weight: 400;
+  line-height: 1.5;
+  font-family: 'Roboto', sans-serif;
+  color: #555;
+}
+
+.input {  
+  width: 240px;
+  height: 50px;
+  margin: 0 auto;
+  padding: 0 15px;
+  line-height: 50px;
+  border: 2px solid #bbb;
+  border-radius: 8px;
+  background-color: #eee;
+  color: #444;
+}
+
+.label {
+  display: block;
+  margin: 25px auto 15px;
+  font-size: .9em;
+  font-weight: 500;
+  line-height: 1.5;
+  font-family: 'Roboto', sans-serif;
+  color: #555;
+}
+
+.page * {
+  width: 100%;
+  text-align: justify;
+}
+
+.page em {
+  color: #999;
+}
+
+.page a {
+  color: #666;
+}
+
+
 
 @media (prefers-reduced-motion: no-preference) {
   
