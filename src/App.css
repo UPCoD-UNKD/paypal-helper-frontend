@@ -1,0 +1,54 @@
+.app {
+  background-color: #fff;
+}
+
+.logo {
+  height: 40px;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 80px auto;
+  width: 80%;
+  text-align: center;
+}
+
+.header {
+  background-color: #282c34;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  padding: 0 10%;
+}
+
+.logo-text {
+  margin-left: 15px;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+}
+
+.link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 160px;
+  padding: 0 40px;
+  height: 60px;
+  margin: 40px;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 8px;
+  background-color: #48adc9;
+}
+
+.button {
+  background-color: rgb(27, 151, 83);
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  
+}
