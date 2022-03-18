@@ -14,9 +14,9 @@
 .logo-content {
   display: flex;
   align-items: center;
-}
-.logo-content {
   text-decoration: none;
+  background-color: transparent;
+  border: none;
 }
 .content.page {
   margin-top: 0;

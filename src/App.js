@@ -17,10 +17,16 @@ function App() {
   return (
     <div className="app">
       <header className="header">
-        <a href="/" className="logo-content">
+        <button
+          className="logo-content"
+          onClick={() => {
+            show ? setShow(show) : setShow(!show)
+            showPrivacy ? setShowPrivacy(showPrivacy) : setShowPrivacy(!showPrivacy)
+          }}
+        >
           <img src={logo} className="logo" alt="logo" />
           <h1 className="logo-text">Name Here</h1>
-        </a>
+        </button>
       </header>
       <section className="content">
         {show &&
@@ -48,7 +54,7 @@ function App() {
               className="text-link"
               onClick={() => {
                 setShow(!show)
-                setShowPrivacy(!showPrivacy)
+                showPrivacy ? setShowPrivacy(showPrivacy) : setShowPrivacy(!showPrivacy)
               }}
             >
               Privacy Policy
