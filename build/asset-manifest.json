@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "https://paypal-donate.pp.ua/static/css/main.f4fb8247.css",
+    "main.js": "https://paypal-donate.pp.ua/static/js/main.12d4b8e1.js",
+    "static/js/787.28cb0dcd.chunk.js": "https://paypal-donate.pp.ua/static/js/787.28cb0dcd.chunk.js",
+    "index.html": "https://paypal-donate.pp.ua/index.html",
+    "main.f4fb8247.css.map": "https://paypal-donate.pp.ua/static/css/main.f4fb8247.css.map",
+    "main.12d4b8e1.js.map": "https://paypal-donate.pp.ua/static/js/main.12d4b8e1.js.map",
+    "787.28cb0dcd.chunk.js.map": "https://paypal-donate.pp.ua/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f4fb8247.css",
+    "static/js/main.12d4b8e1.js"
+  ]
+}
