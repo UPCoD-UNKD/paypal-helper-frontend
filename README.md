@@ -6,7 +6,7 @@
 ## Алгоритм:
 
 - Использовать Google Forms для описания процесса действия, потому что они могут помочь в автозаполнении формы, куда можно вставить email и отправить ссылку благодетелю для оплаты. [Вот пример](https://docs.google.com/forms/d/e/1FAIpQLScPs3GhuqYsix6pGNjf23t_AACFrqjPxn2d3eUqKuJnzLlODg/viewform?usp=pp_url&entry.2141641275=esupport@esupport.org.ua)
-- Для того, чтоб это упростить, мы делаем сайт [paypal-donate.pp.ua](https://https://paypal-donate.pp.ua), с помощью которого генерируем такую ссылку и получаем для нее фирменный код вставки на сайт, генерируя все на JavaScript - без бакенда
+- Для того, чтоб это упростить, мы делаем сайт [paypal-donate.pp.ua](https://paypal-donate.pp.ua/), с помощью которого генерируем такую ссылку и получаем для нее фирменный код вставки на сайт, генерируя все на JavaScript - без бакенда
 - Также мы вставляем кнопку, которая позволяет отправить сгенеренный код знакомому по email и иными альтернативными вариантами, но без использования бакенда - только фронт, только JavaScript
 
 ## Ограничения:
@@ -18,5 +18,9 @@
 
 PayPal не дает никаких API для P2P, так как это рискованные операции
 
+## Код ссылки на форму с предустановленым email
 
+``
+https://docs.google.com/forms/d/e/1FAIpQLScPs3GhuqYsix6pGNjf23t_AACFrqjPxn2d3eUqKuJnzLlODg/viewform?usp=pp_url&entry.2141641275=esupport@esupport.org.ua
+``
 
