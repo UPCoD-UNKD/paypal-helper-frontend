@@ -11,7 +11,7 @@ function App() {
 
   const Url = 'https://docs.google.com/forms/d/e/1FAIpQLScPs3GhuqYsix6pGNjf23t_AACFrqjPxn2d3eUqKuJnzLlODg/viewform'
 
-  const formUrl = Url + '?=' + email;
+  const formUrl = Url + '?usp=pp_url&entry.2141641275=' + email;
 
 
   return (
