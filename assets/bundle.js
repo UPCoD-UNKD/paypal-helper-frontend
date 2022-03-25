@@ -36,7 +36,7 @@ function App() {
   const [show, setShow] = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(true);
   const [showPrivacy, setShowPrivacy] = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(false);
   const Url = 'https://docs.google.com/forms/d/e/1FAIpQLScPs3GhuqYsix6pGNjf23t_AACFrqjPxn2d3eUqKuJnzLlODg/viewform';
-  const formUrl = Url + '?=' + email;
+  const formUrl = Url + '?usp=pp_url&entry.2141641275=' + email;
   return /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxDEV)("div", {
     className: "app",
     children: [/*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxDEV)("header", {
